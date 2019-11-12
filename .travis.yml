@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+    - "node"
+install: true
+script: echo "Skipping build"
+deploy:
+  edge: true
+  provider: bluemixcloudfoundry
+  username: kk7KMGgRB-u2SinYY6VgBo1VObsMGeN95Yl1PAQ6_nam
+  organization: kmlasharma5@gmail.com
+  space: dev
+  manifest: manifest.yml
